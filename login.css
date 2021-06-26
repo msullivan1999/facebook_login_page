@@ -58,9 +58,9 @@ button {
 
 #login-button{
     display: inline-block;
-    width: 100%;
+    width: 99%;
     padding: 16px;
-    margin:4px;
+    margin: 4px;
     background-color: #1877f2;
     font-weight: 700;
     font-size: 17px;
@@ -68,13 +68,14 @@ button {
 
 #new-account{
     font-size: 14px;
-    width: 200px;
-    height: 36px;
+    width: 175px;
+    height: 42px;
     font-weight: 700;
     padding: 5px 16px 3px;
     background-color: rgb(0,164,0);
     line-height: 27px;
     margin-bottom: 100px; 
+    margin-top: 12px;
 }
 
 footer {

@@ -1,0 +1,48 @@
+<!doctype HTML>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "login.css">
+        <meta charset="utf-8">
+        <title>Facebook_login</title>
+    </head>
+
+    <body>
+        <section class = logo> 
+            <img src = "images/fb_logo.svg" class = "img" alt = "facebook">
+        </section>
+        <section class = "login">
+            <form id = "account-details">
+                <input type = "text" id = "mobile-email" name = "mobile-email" placeholder = "Mobile number or email address">
+                <br>
+                <input type = "password" id = "pword" name = "pword" placeholder = "Password">
+                <br>
+            </form>
+                <button type = "submit" form = "account-details" value = "Log In" id = "login-button">Log In</button>
+                <br>
+                <div id = "forgot-pword"><a href = "login.html">Forgotten Password?</a></div>
+                <br>
+                <p id = "or"> or </p>
+                <button type = "button" id = "new-account" value = "new-account">Create New Account</button>
+        </section>
+        <section class = languages>
+            <div class = "row">
+                <div class = "column">
+                    <p>English</p>
+                    <p>한국어</p>
+                    <p>Español</p>
+                    <p>Français (France)</p>
+                </div>
+                <div class = "column">
+                    <p>中文(简体)</p>
+                    <p>日本語</p>
+                    <p>Português (Brasil)</p>
+                    <button type = button id = "more-lang" value = "more-lang">+</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Facebook Inc.</p>
+        </footer>
+    </body>
+
+</html>
